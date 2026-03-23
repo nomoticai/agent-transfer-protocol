@@ -15,19 +15,35 @@ obligation.
 The following extensions referenced in the specification may be subject
 to pending patent applications by the author:
 
-**Agent Certificate Extension**
-Described in Section 7.2 of the specification and fully specified in
-`draft-hood-agtp-agent-cert-00` (pending). Covers cryptographic binding
-of agent identity and authority scope to AGTP header fields at the
-transport layer, including the authority_scope_commitment mechanism,
-session-level revocation propagation, and AGTP Certificate Transparency
-Log infrastructure.
+**System and Method for Transport-Layer Cryptographic Identity
+Certification of AI Agents via the Agent Transfer Protocol with
+Authority-Scope Binding, Session-Level Revocation Propagation, and
+Certificate Transparency Infrastructure**
+Described at a high level in Section 8.2 of the specification and
+fully specified in `draft-hood-agtp-agent-cert-00` (pending). Covers
+cryptographic binding of agent identity and authority scope to AGTP
+header fields at the transport layer via X.509 v3 extended certificates,
+including the authority_scope_commitment mechanism enabling O(1)
+per-request scope enforcement by infrastructure Scope-Enforcement
+Points, session-level revocation propagation via AGTP NOTIFY broadcast,
+and AGTP Certificate Transparency Log infrastructure for tamper-evident
+governance metadata. Referenced in Sections 8.2, 6.1.6, 6.4.5, 8.4.1,
+8.4.7, and 8.7 of this specification.
 
-**ACTIVATE Method**
+**System and Method for Transport-Layer Binding of Governed AI Agent
+Packages to the Agent Transfer Protocol with ATP-Native Activation
+Methods, Header Field Integration, and Integrity-Preserving Replay
+Attack Prevention**
 An optional AGTP extension that provides AGTP-native transmission and
 activation of governed agent packages in the `.nomo` format, including
-governance-attribute header fields, header field derivation from
-governance identity documents, and AGTP-session-layer replay prevention.
+governance-attribute header fields (AGTP-ACTIVATE-Tier,
+AGTP-ACTIVATE-Zone, AGTP-ACTIVATE-Archetype, AGTP-ACTIVATE-Merkle-Root)
+derived from the package's embedded governance identity document,
+header field derivation mapping governance identity fields to AGTP
+protocol headers at activation completion, and three AGTP-session-layer
+replay prevention mechanisms addressing non-overlapping attack surfaces.
+Referenced in Sections 5.7, 6.1.6, 6.7.1, 6.7.6, 8.4.7, and the
+`activation` Authority-Scope domain (Appendix A) of this specification.
 
 **System and Method for an Open AI Agent Package Format with Declarative
 Manifest, Merkle-Based Integrity Binding, and Two-Tier Governed

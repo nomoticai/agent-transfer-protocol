@@ -1,0 +1,13 @@
+<reference anchor="RFC9001" target="https://www.rfc-editor.org/info/rfc9001">
+  <front>
+    <title>Using TLS to Secure QUIC</title>
+    <author fullname="M. Thomson" initials="M." role="editor" surname="Thomson"/>
+    <author fullname="S. Turner" initials="S." role="editor" surname="Turner"/>
+    <date month="May" year="2021"/>
+    <abstract>
+      <t>This document describes how Transport Layer Security (TLS) is used to secure QUIC.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="RFC" value="9001"/>
+  <seriesInfo name="DOI" value="10.17487/RFC9001"/>
+</reference>

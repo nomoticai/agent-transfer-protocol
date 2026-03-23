@@ -1,0 +1,15 @@
+<reference anchor="RFC7595" target="https://www.rfc-editor.org/info/rfc7595">
+  <front>
+    <title>Guidelines and Registration Procedures for URI Schemes</title>
+    <author fullname="D. Thaler" initials="D." role="editor" surname="Thaler"/>
+    <author fullname="T. Hansen" initials="T." surname="Hansen"/>
+    <author fullname="T. Hardie" initials="T." surname="Hardie"/>
+    <date month="June" year="2015"/>
+    <abstract>
+      <t>This document updates the guidelines and recommendations, as well as the IANA registration processes, for the definition of Uniform Resource Identifier (URI) schemes. It obsoletes RFC 4395.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="BCP" value="35"/>
+  <seriesInfo name="RFC" value="7595"/>
+  <seriesInfo name="DOI" value="10.17487/RFC7595"/>
+</reference>

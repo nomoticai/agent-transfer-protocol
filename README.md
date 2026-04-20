@@ -50,7 +50,7 @@ they define what agents say. AGTP defines how agent traffic moves.
 
 | Item | Status |
 |---|---|
-| Internet-Draft | `draft-hood-independent-agtp-03` — active |
+| Internet-Draft | `draft-hood-independent-agtp-05` — active |
 | IETF submission | Submitted |
 | Working group | Independent submission (no WG assigned yet) |
 | Reference implementation | Planned (Python / Go) — contributions welcome |
@@ -66,16 +66,22 @@ they define what agents say. AGTP defines how agent traffic moves.
 | `draft-hood-agtp-composition-00` | Composition with MCP, A2A, ACP |
 | `draft-hood-agtp-discovery-00` | Agent discovery and name service |
 | `draft-hood-agtp-web3-bridge-00` | Web3 wallet identity bridge |
+| `draft-hood-agtp-merchant-identity-00` | Merchant identity extends agent PURCHASE |
 
 ---
 
 ## Repository Contents
 
 ```
-draft-hood-independent-agtp-03.md    kramdown-rfc source (edit this)
-draft-hood-independent-agtp-03.xml   RFC XML v3 (generated)
-draft-hood-independent-agtp-03.txt   Plain-text I-D (IETF submission format)
-draft-hood-independent-agtp-03.html  Rendered HTML (human-readable)
+draft-hood-independent-agtp-05.md
+draft-hood-independent-agis-01.md
+draft-hood-agtp-standard-methods-01.md
+draft-hood-agtp-agent-cert-00.md
+draft-hood-agtp-composition-00.md
+draft-hood-agtp-discovery-00.md
+draft-hood-agtp-web3-bridge-00.md
+draft-hood-agtp-merchant-identity-00.md
+
 ```
 
 ---
